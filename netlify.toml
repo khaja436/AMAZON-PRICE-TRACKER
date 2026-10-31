@@ -1,0 +1,9 @@
+[build]
+  publish = "."
+  functions = "netlify/functions"
+
+[functions]
+  directory = "netlify/functions"
+
+[functions."check_prices"]
+  schedule = "0 * * * *"
